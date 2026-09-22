@@ -1,0 +1,335 @@
+{
+  "objects": {
+    "47699d9e-18a5-4f88-a4f9-b8be92e8f74a": {
+      "components": {},
+      "geometry": null,
+      "id": "47699d9e-18a5-4f88-a4f9-b8be92e8f74a",
+      "light": {
+        "type": "ambient"
+      },
+      "material": null,
+      "name": "Ambient Light",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "order": 0.4038940050501252
+    },
+    "a608ddd9-9379-464d-966f-5d8d8674c83c": {
+      "camera": {
+        "type": "perspective",
+        "xr": {
+          "desktop": "disabled",
+          "xrCameraType": "world",
+          "headset": "disabled",
+          "phone": "AR",
+          "world": {
+            "scale": "absolute"
+          }
+        }
+      },
+      "components": {
+        "cdd64132-9475-4683-9175-188815498a5c": {
+          "id": "cdd64132-9475-4683-9175-188815498a5c",
+          "name": "cursor-tap-place",
+          "parameters": {
+            "growSpeed": 1000,
+            "cursorEntity": {
+              "type": "entity",
+              "id": "194a490f-4a8e-4fee-83bb-5d6f830531cf"
+            },
+            "ground": {
+              "type": "entity",
+              "id": "4919f137-88d2-4786-9cd4-4c5c6ddd3efe"
+            },
+            "placedEntity": {
+              "type": "entity",
+              "id": "6c81fc9c-3d99-4e86-a150-1cee5f0dff20"
+            },
+            "growOnPlace": true
+          }
+        }
+      },
+      "geometry": null,
+      "id": "a608ddd9-9379-464d-966f-5d8d8674c83c",
+      "material": null,
+      "name": "Camera",
+      "position": [
+        0,
+        5,
+        5
+      ],
+      "rotation": [
+        -1.8412919444518387e-17,
+        0.9537169517857893,
+        -0.30070579621354565,
+        -5.839832572618051e-17
+      ],
+      "scale": [
+        0.9999998646558023,
+        0.9999999931513284,
+        0.9999998715044741
+      ],
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "order": 1.0308214152219775
+    },
+    "ac1989e3-3b71-49e2-a05f-e682aeb18c36": {
+      "components": {},
+      "geometry": null,
+      "id": "ac1989e3-3b71-49e2-a05f-e682aeb18c36",
+      "light": {
+        "intensity": 0,
+        "type": "directional"
+      },
+      "material": null,
+      "name": "Directional Light",
+      "position": [
+        20,
+        20,
+        10
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "order": 0.6644431107322474
+    },
+    "f6c2967f-838c-4ff1-aca8-721132b6751f": {
+      "id": "f6c2967f-838c-4ff1-aca8-721132b6751f",
+      "position": [
+        0,
+        1.6,
+        3.5208324793156858
+      ],
+      "rotation": [
+        -0.7071067999999995,
+        0,
+        0,
+        0.7071067623730952
+      ],
+      "scale": [
+        1.6,
+        2.3000000000000003,
+        1.0000000000000002
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF"
+      },
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Plane",
+      "order": 2.772726030198803,
+      "hidden": false,
+      "disabled": true
+    },
+    "194a490f-4a8e-4fee-83bb-5d6f830531cf": {
+      "id": "194a490f-4a8e-4fee-83bb-5d6f830531cf",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "cursor entity",
+      "order": 7.122262305375021,
+      "hidden": false
+    },
+    "4919f137-88d2-4786-9cd4-4c5c6ddd3efe": {
+      "id": "4919f137-88d2-4786-9cd4-4c5c6ddd3efe",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.707106799999999,
+        0,
+        0,
+        0.7071067623730954
+      ],
+      "scale": [
+        1,
+        1.0000000532124818,
+        1.0000000532124818
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1000,
+        "height": 1000
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "opacity": 0
+      },
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "ground",
+      "order": 3.535786845938867,
+      "hidden": false
+    },
+    "f65d4b1d-7acd-47e2-801f-9897ecc521cf": {
+      "id": "f65d4b1d-7acd-47e2-801f-9897ecc521cf",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.707106799999999,
+        0,
+        0,
+        0.7071067623730954
+      ],
+      "scale": [
+        1,
+        1.0000000532124818,
+        1.0000000532124818
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF"
+      },
+      "parentId": "194a490f-4a8e-4fee-83bb-5d6f830531cf",
+      "components": {},
+      "name": "Plane (2)",
+      "order": 8.397491038425745
+    },
+    "6c81fc9c-3d99-4e86-a150-1cee5f0dff20": {
+      "id": "6c81fc9c-3d99-4e86-a150-1cee5f0dff20",
+      "position": [
+        0,
+        0,
+        -1.2617135304222749
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.6,
+        2,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "placement",
+      "order": 8.578025776924797,
+      "hidden": false
+    },
+    "7f6b00e3-f3dd-486a-b00c-578a004c67b0": {
+      "id": "7f6b00e3-f3dd-486a-b00c-578a004c67b0",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "6c81fc9c-3d99-4e86-a150-1cee5f0dff20",
+      "components": {
+        "6cf72988-4ec9-4acb-bfa0-d46f0d560d5f": {
+          "id": "6cf72988-4ec9-4acb-bfa0-d46f0d560d5f",
+          "name": "gesture-detection",
+          "parameters": {
+            "holdDrag": true,
+            "groundEntity": {
+              "type": "entity",
+              "id": "4919f137-88d2-4786-9cd4-4c5c6ddd3efe"
+            }
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/rug_test.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "rug_test.glb",
+      "order": 0.04556464494566681
+    }
+  },
+  "spaces": {
+    "88453035-dc0f-486d-868a-8ff7c2fda864": {
+      "id": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "name": "Default",
+      "activeCamera": "a608ddd9-9379-464d-966f-5d8d8674c83c",
+      "reflections": {
+        "type": "url",
+        "url": "https://cdn.8thwall.com/web/assets/envmap/basic_env_map-m9hqpneh.jpg"
+      }
+    }
+  },
+  "entrySpaceId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+  "runtimeVersion": {
+    "type": "version",
+    "level": "major",
+    "major": 2,
+    "minor": 0,
+    "patch": 0
+  }
+}
